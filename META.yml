@@ -1,11 +1,11 @@
 name: Test-SubCalls
-version: 0.01
+version: 0.02
 abstract: Test the number of times a subroutine is called
 author: Adam Kennedy <cpan@ali.as>
 license: perl
 distribution_type: module
 build_requires:
-  Test::Builder::Tester: 1.01
+  Test::Builder::Tester: 1.02
 requires:
   perl: 5.6.0
   Test::More: 0.60

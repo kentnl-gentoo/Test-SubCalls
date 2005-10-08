@@ -77,7 +77,7 @@ SUPPORT
     author.
 
 AUTHOR
-    Adam Kennedy (Maintainer), <http://ali.as/>, cpan@ali.as
+    Adam Kennedy <cpan@ali.as>, <http://ali.as/>
 
 SEE ALSO
     Test::Builder, Test::More, Hook::LexWrap

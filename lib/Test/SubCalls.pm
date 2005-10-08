@@ -48,7 +48,7 @@ use base 'Exporter';
 
 use vars qw{$VERSION @EXPORT};
 BEGIN {
-	$VERSION = '0.01';
+	$VERSION = '0.02';
 	@EXPORT  = qw{sub_track sub_calls sub_reset sub_reset_all};
 }
 
@@ -194,7 +194,7 @@ For other issues, or commercial enhancement or support, contact the author.
 
 =head1 AUTHOR
 
-Adam Kennedy (Maintainer), L<http://ali.as/>, cpan@ali.as
+Adam Kennedy E<lt>cpan@ali.asE<gt>, L<http://ali.as/>
 
 =head1 SEE ALSO
 

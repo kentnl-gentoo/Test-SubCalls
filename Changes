@@ -1,4 +1,7 @@
 Revision history for Perl extension Test::SubCalls
 
+0.02 Sat Oct  8 2005
+	- Upgraded Test::Builder::Tester dependency
+
 0.01 Thu Sep  1 2005
 	- Created the initial version of the module

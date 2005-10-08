@@ -9,8 +9,7 @@ requires       ( 'perl'                  => '5.006' );
 requires       ( 'Test::More'            => '0.60'  );
 requires       ( 'File::Spec'            => '0.80'  );
 requires       ( 'Hook::LexWrap'         => '0.20'  );
-build_requires ( 'Test::Builder::Tester' => '1.01'  );
-include        ( 'Test::Builder::Tester'            );
+build_requires ( 'Test::Builder::Tester' => '1.02'  );
 auto_install   ();
 
 &WriteAll;
