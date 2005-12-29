@@ -1,17 +1,18 @@
-name: Test-SubCalls
-version: 0.02
-abstract: Test the number of times a subroutine is called
-author: Adam Kennedy <cpan@ali.as>
-license: perl
-distribution_type: module
+abstract: Track the number of times subs are called
+author: 'Adam Kennedy <cpan@ali.as>, L<http://ali.as/>'
 build_requires:
   Test::Builder::Tester: 1.02
-requires:
-  perl: 5.6.0
-  Test::More: 0.60
-  File::Spec: 0.80
-  Hook::LexWrap: 0.20
+distribution_type: module
+generated_by: Module::Install version 0.50
+license: perl
+name: Test-SubCalls
 no_index:
   directory:
     - inc
-generated_by: Module::Install version 0.37
+    - t
+requires:
+  File::Spec: 0.80
+  Hook::LexWrap: 0.20
+  Test::More: 0.60
+  perl: 5.6.0
+version: 0.03
