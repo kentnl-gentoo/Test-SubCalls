@@ -49,7 +49,7 @@ use base 'Exporter';
 
 use vars qw{$VERSION @EXPORT};
 BEGIN {
-	$VERSION = '0.03';
+	$VERSION = '0.04';
 	@EXPORT  = qw{sub_track sub_calls sub_reset sub_reset_all};
 }
 
@@ -195,15 +195,15 @@ For other issues, or commercial enhancement or support, contact the author.
 
 =head1 AUTHOR
 
-Adam Kennedy E<lt>cpan@ali.asE<gt>, L<http://ali.as/>
+Adam Kennedy E<lt>cpan@ali.asE<gt>
 
 =head1 SEE ALSO
 
-L<Test::Builder>, L<Test::More>, L<Hook::LexWrap>
+L<http://ali.as/>, L<Test::Builder>, L<Test::More>, L<Hook::LexWrap>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2005 Adam Kennedy. All rights reserved.
+Copyright (c) 2005, 2006 Adam Kennedy. All rights reserved.
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
 

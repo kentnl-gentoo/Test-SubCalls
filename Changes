@@ -1,5 +1,9 @@
 Revision history for Perl extension Test::SubCalls
 
+0.04 Sun 23 Apr 2006
+	- Moved from SourceForge CVS to new collaborative SVN repository
+	- Upgraded Module::Install to 0.62
+
 0.03 Fri Dec 30 2004
 	- Noted version dependency is actually 5.006
 	  (This is ONLY because of Lex::HookWrap)

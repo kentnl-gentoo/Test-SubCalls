@@ -1,18 +1,20 @@
-abstract: Track the number of times subs are called
-author: 'Adam Kennedy <cpan@ali.as>, L<http://ali.as/>'
-build_requires:
-  Test::Builder::Tester: 1.02
-distribution_type: module
-generated_by: Module::Install version 0.50
-license: perl
-name: Test-SubCalls
-no_index:
-  directory:
+
+no_index: 
+  directory: 
     - inc
     - t
-requires:
-  File::Spec: 0.80
-  Hook::LexWrap: 0.20
+generated_by: Module::Install version 0.62
+distribution_type: module
+version: 0.04
+name: Test-SubCalls
+author: Adam Kennedy <cpan@ali.as>
+license: perl
+build_requires: 
+  Test::Simple: 0.62
+  Test::Builder::Tester: 1.02
+requires: 
   Test::More: 0.60
   perl: 5.6.0
-version: 0.03
+  File::Spec: 0.80
+  Hook::LexWrap: 0.20
+abstract: Track the number of times subs are called
