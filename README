@@ -32,7 +32,7 @@ FUNCTIONS
     In the nature of test modules, all functions are exported by default.
 
   sub_track $subname
-    The c<sub_track> function creates a new call tracker for a named
+    The "sub_track" function creates a new call tracker for a named
     function.
 
     The sub to track must be provided by name, references to the function
