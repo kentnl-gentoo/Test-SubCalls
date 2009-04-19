@@ -3,19 +3,19 @@ NAME
 
 SYNOPSIS
       use Test::SubCalls;
-  
-      # Start tracking calls to a named sub
+      
+  # Start tracking calls to a named sub
       sub_track( 'Foo::foo' );
-  
-      # Run some test code
+      
+  # Run some test code
       ...
-  
-      # Test that some sub deep in the codebase was called
+      
+  # Test that some sub deep in the codebase was called
       # a specific number of times.
       sub_calls( 'Foo::foo', 5 );
       sub_calls( 'Foo::foo', 5, 'Use a custom test message' );
-  
-      # Reset the counts for one or all subs
+      
+  # Reset the counts for one or all subs
       sub_reset( 'Foo::foo' );
       sub_reset_all();
 
@@ -83,7 +83,7 @@ SEE ALSO
     <http://ali.as/>, Test::Builder, Test::More, Hook::LexWrap
 
 COPYRIGHT
-    Copyright 2005 - 2008 Adam Kennedy.
+    Copyright 2005 - 2009 Adam Kennedy.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.

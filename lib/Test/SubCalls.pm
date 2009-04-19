@@ -41,15 +41,17 @@ In the nature of test modules, all functions are exported by default.
 
 =cut
 
-use 5.006; # Only because of Hook::LexWrap. Otherwise 5.005
+use 5.006;
 use strict;
-use Test::Builder ();
-use Hook::LexWrap ();
-use Exporter      ();
+use File::Spec    0.80 ();
+use Test::More    0.42 ();
+use Hook::LexWrap 0.20 ();
+use Exporter           ();
+use Test::Builder      ();
 
 use vars qw{$VERSION @ISA @EXPORT};
 BEGIN {
-	$VERSION = '1.08';
+	$VERSION = '1.09';
 	@ISA     = 'Exporter';
 	@EXPORT  = qw{sub_track sub_calls sub_reset sub_reset_all};
 }
@@ -131,7 +133,7 @@ sub sub_calls {
 
 	# Check the count
 	my $count = shift;
-	unless ( $count =~ /^(?:0|[1-9]\d*)$/s ) {
+	unless ( $count =~ /^(?:0|[1-9]\d*)\z/s ) {
 		die "Test::SubCalls::sub_calls : Expected count '$count' is not an integer";
 	}
 
@@ -204,7 +206,7 @@ L<http://ali.as/>, L<Test::Builder>, L<Test::More>, L<Hook::LexWrap>
 
 =head1 COPYRIGHT
 
-Copyright 2005 - 2008 Adam Kennedy.
+Copyright 2005 - 2009 Adam Kennedy.
 
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
