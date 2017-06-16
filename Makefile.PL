@@ -1,3 +1,4 @@
+use lib '.';
 use inc::Module::Install::DSL 0.83;
 
 all_from      lib/Test/SubCalls.pm
