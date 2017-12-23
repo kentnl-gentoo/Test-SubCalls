@@ -51,7 +51,7 @@ use Test::Builder      ();
 
 use vars qw{$VERSION @ISA @EXPORT};
 BEGIN {
-	$VERSION = '1.09';
+	$VERSION = '1.10';
 	@ISA     = 'Exporter';
 	@EXPORT  = qw{sub_track sub_calls sub_reset sub_reset_all};
 }
