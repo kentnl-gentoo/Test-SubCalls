@@ -1,6 +1,6 @@
 Changes for Test-SubCalls
 
-{{$NEXT}}
+1.10      2017-12-23 21:29:27Z
         - switch packaging to Dist::Zilla, which makes the distribution
           installable again on perl 5.27.7  (See RT#123867)
 
