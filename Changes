@@ -1,4 +1,8 @@
-Changes for Perl extension Test-SubCalls
+Changes for Test-SubCalls
+
+{{$NEXT}}
+        - switch packaging to Dist::Zilla, which makes the distribution
+          installable again on perl 5.27.7  (See RT#123867)
 
 1.09      2009-04-19
 	- Upgrading to Module::Install::DSL 0.83

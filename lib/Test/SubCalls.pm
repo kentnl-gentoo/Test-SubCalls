@@ -49,9 +49,9 @@ use Hook::LexWrap 0.20 ();
 use Exporter           ();
 use Test::Builder      ();
 
-use vars qw{$VERSION @ISA @EXPORT};
+our $VERSION = '1.10';
+use vars qw{@ISA @EXPORT};
 BEGIN {
-	$VERSION = '1.10';
 	@ISA     = 'Exporter';
 	@EXPORT  = qw{sub_track sub_calls sub_reset sub_reset_all};
 }
